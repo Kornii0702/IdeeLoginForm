@@ -1,0 +1,14 @@
+{
+  "name": "ideetask1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass src/css/style.scss src/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.73.0"
+  }
+}
