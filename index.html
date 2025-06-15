@@ -24,35 +24,45 @@
 
 </header>
 
-<div clas="breadcrumb">
-    <a href="#">Home/Login</a>
+<div class="breadcrumb">
+    <a href="#">Home</a> / Login
 </div>
+
 <main class="login-container">
     <section class="login-form">
-        <h1>Login</h1>
+        <h1><span class="underline">Logi</span>n</h1>
         <p>To access your account</p>
+        <div class="login-block">
+            <form>
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter your username" required maxlength="100">
 
-        <form>
-            <label>Username</label>
-            <input type="text" placeholder="Enter your username">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
 
-            <label>Email Address</label>
-            <input type="email" placeholder="Enter your email">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter your password" required minlength="7" maxlength="25">
 
-            <label>Password</label>
-            <input type="password" placeholder="Enter your password">
+                <div class="forgot-login">
+                    <a href="#">Forgot password?</a>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
 
-            <div class="forgot-login">
-                <a href="#">Forgot password?</a>
-                <button type="submit">Login</button>
-            </div>
-        </form>
-    </section>
+            </section>
 
-    <section class="register-box">
-        <p>Not a member?</p>
-        <button>Register today</button>
-    </section>
+            
+            <section class="register-box">
+                <img src="src/images/logo.png" alt="logo" class="logo1">
+                <div class="register-box-center">
+                    <p>Not a member?</p>
+                    <button>Register today</button>
+                </div>
+                <img src="src/images/logo.png" alt="logo" class="logo2">
+                
+            </section>
+        </div>
+            
 
 </main>
 
