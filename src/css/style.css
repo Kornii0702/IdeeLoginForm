@@ -22,6 +22,7 @@ nav .menu-left {
   gap: 0px;
   margin: 0px;
   padding: 20px 20px 20px 80px;
+  width: 100%;
 }
 nav .menu-left li a {
   text-decoration: none;
@@ -38,7 +39,7 @@ nav .menu-right {
   list-style: none;
   display: flex;
   padding: 0;
-  margin-left: 90px;
+  margin: 0px;
   border-radius: 40px;
   font-weight: bold;
   gap: 0px;

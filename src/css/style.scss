@@ -8,60 +8,64 @@ header {
   background-color: lightgray;
   padding: 0;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 20px;
-  
 
-  .menu-left {
-    list-style: none;
-    display: flex;
-    gap: 0px;
-    margin: 0px;
-    padding: 20px 20px 20px 80px;
 
-    li a {
-    text-decoration: none;
-    color: rgb(83, 82, 82);
-    font-weight: bold;
-    background: white;
-    padding: 21px 21px 21px 21px;
-    transition: background 1 s ease;
-    &:hover {
-    background: gray;
-  }
-  }
-  
-  }
-  .menu-right {
-    list-style: none;
+  nav {
     display: flex;
-    padding: 0;
-    margin-left: 90px;
-    border-radius: 40px;
-    font-weight: bold;
-    gap: 0px;
-    a {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    
+
+    .menu-left {
+      list-style: none;
+      display: flex;
+      gap: 0px;
+      margin: 0px;
+      padding: 20px 20px 20px 80px;
+      width: 100%;
+
+      li a {
       text-decoration: none;
-      color: rgb(50, 49, 49);
-      background:gray;
-      padding: 21px;
-      margin-left: 0;
+      color: rgb(83, 82, 82);
+      font-weight: bold;
+      background: white;
+      padding: 21px 21px 21px 21px;
       transition: background 1 s ease;
-
       &:hover {
-    background: rgb(78, 75, 75);
-  }
+      background: gray;
     }
+    }
+    
+    }
+    .menu-right {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0px;
+      border-radius: 40px;
+      font-weight: bold;
+      gap: 0px;
+      a {
+        text-decoration: none;
+        color: rgb(50, 49, 49);
+        background:gray;
+        padding: 21px;
+        margin-left: 0;
+        transition: background 1 s ease;
 
-    .menu-right a.active {
-      background: black;
+        &:hover {
+      background: rgb(78, 75, 75);
     }
- 
+      }
+
+      .menu-right a.active {
+        background: black;
+      }
+  
+    }
   }
-}
+
 
 .breadcrumb {
   margin: 10px 10px 0px 140px ;
