@@ -80,7 +80,7 @@ nav .menu-right .menu-right a.active {
   padding: 20px;
   border-radius: 5px;
   margin-right: 20px;
-  width: 90%;
+  width: 100%;
   max-width: 700px;
 }
 .login-container .login-form h1 {
@@ -165,6 +165,37 @@ nav .menu-right .menu-right a.active {
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  .login-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .login-form {
+    width: 100% !important;
+    margin: 0;
+  }
+  .register-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  nav {
+    text-align: center;
+    padding: 0px;
+  }
+  nav .menu-left,
+  nav .menu-right {
+    align-items: flex-end;
+  }
+  nav .menu-left {
+    width: 100%;
+    padding: 10px 0;
+  }
+  nav .menu-right {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
